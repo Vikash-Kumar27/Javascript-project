@@ -1,4 +1,4 @@
 # Javascript-project
 Name - Colorchanger
 <br>
-Author - Vikash kumar
+Author - Vikash Kumar
