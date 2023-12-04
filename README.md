@@ -1,2 +1,2 @@
 # Javascript-project
-author - Vikash kumar
+Author - Vikash kumar
