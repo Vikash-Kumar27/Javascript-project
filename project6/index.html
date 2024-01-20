@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Password Generator</h1>
+            <div class="textbox">
+                <input type="text" id="input">
+                <span class="material-symbols-outlined">
+                    content_copy
+                    </span>
+
+            </div>
+            <div class="range">
+                <input type="range" value="8" max="25" id="slider">
+                <label for="slider">length:8</label>
+            </div>
+
+            <div class="checked-box">
+                <div class="checkbox">
+                    <label for="lowerCase">LowerCase(a-z)</label>
+                    <input type="checkbox" id="lowerCase">
+                </div>
+                <div class="checkbox">
+                    <label for="number">Numbers(0-9)</label>
+                    <input type="checkbox" id="number">
+                </div>
+                <div class="checkbox">
+                    <label for="upperCase">UpperCase(A-Z)</label>
+                    <input type="checkbox" id="upperCase">
+                </div>
+                <div class="checkbox">
+                    <label for="special_Symbol">Symbol(@*.)</label>
+                    <input type="checkbox" id="special_Symbol">
+                </div>
+
+            </div>
+            <button id="btn">Generate Password</button>
+            <span class="text"></span>
+        </div>
+    </div>
+    <script src="RandomPassword.js"></script>
+</body>
+
+</html>

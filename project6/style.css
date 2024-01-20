@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Ubuntu Mono", monospace;
+    background:linear-gradient(to right bottom,#b0ddcb,#d0b920);
+    color: #fff;
+}
+.container{
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+   
+
+}
+.textbox{
+ position: relative;
+}
+.textbox span{
+    color: #000;
+    position: absolute;
+    top:6px;
+    right:6px;
+    cursor: pointer;
+  
+}
+.container h1{
+    margin-top: 8px;
+    text-align: center;
+    padding-bottom: 12px;
+    color: #000;
+}
+#input{
+    padding: 8px 10px;
+    padding-right: 34px;
+    font-size:17px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    width: 340px;
+    height: 390px;
+    border: 2px solid cadetblue;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow:8px 8px 8px #71c092, 4px 4px 4px #d8e37c;
+}
+.range{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap :8px;
+    margin:5px auto;
+
+}
+.checked-box{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 17px;
+}
+#btn{
+    padding: 6px 14px;
+    font-size: 18px;
+    border: none;
+    background-color: blue;
+    margin-top: 12px;
+    border-radius: 6px;
+    color: #fff;
+}
+.text{
+    text-align: center;
+    color: #f00;
+}
