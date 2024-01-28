@@ -1,0 +1,89 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+      
+    }
+
+    body {
+        background:linear-gradient(to right bottom,#8f8fe9,#39dbdb);
+        font-family:  sans-serif;
+       
+    }
+    .container{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 400px;
+        height: 400px;
+        box-shadow: 8px 8px 8px #647a7a,2px 2px 2px #49bebe;
+       
+    }
+
+    .box form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+      
+    }
+
+    .box h1 {
+        color: #000;
+        margin-top: 20px;
+        
+    }
+
+    .input {
+        margin: 20px auto;
+    }
+
+    #input {
+        width: 60px;
+        height: 24px;
+        padding-left:37px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+    }
+
+    .radiobox {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin: 14px auto;
+    }
+    .radiobox label{
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    button {
+        width: 80px;
+        margin: 10px auto;
+        padding: 6px 12px;
+        font-size: 17px;
+        background-color: #cb39db;
+        color: #000;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+    }
+    button:hover{
+        background-color: #b037be;
+    }
+    .result{
+        font-size: 17px;
+        font-weight: 600;
+        color: #d70f0f;
+    }
